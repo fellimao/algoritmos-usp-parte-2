@@ -15,7 +15,7 @@ public class Calc{
 		if(args[1].equals("-"))// metodo que compara o parametro com conteudo da variavel da classe.
 		{
 			r=a-b;
-			System.out.println( args[0]+args[1]+args[2]+": "+ r);
+			System.out.println( args[0]+args[1]+args[2]+" =  "+ r);
 		}
 		//MULT --> inserir o * assim: a "*" b // WHY? 
 		if(args[1].equals("x") ||args[1].equals("X")) // metodo que compara o parametro com conteudo da variavel da classe.
@@ -34,7 +34,7 @@ public class Calc{
 		{
            double c;
             c =  Math.pow(a,b);
-			System.out.println( args[0]+args[1]+args[2]+": "+ c);
+			System.out.println( args[0]+args[1]+args[2]+" =  "+ c);
 		}
 	}
 }
